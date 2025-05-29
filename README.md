@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=I'm+Riteeka+Purnekar!+😄" alt="Typing..." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=I'm+Riteeka+Purnekar+😎" alt="Typing..." />
     <br> <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&weight=600&size=30&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=Welcome+to+My+Digital+Playground!" alt="Welcome :)" />
 </div>
 
