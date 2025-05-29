@@ -4,24 +4,29 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=I'm+Riteeka+Purnekar!+😄" alt="Typing..." />
 </div>
 
-<br> 
+<br><br>
 
 <div align="center">  
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejh6NG84N24wcHJ2MmZ1MzJsb2x0NDg2d2xsN3R3c2dvcTU4cmZsaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif" align="right" alt="👋 Me coding" width="300">
 </div>
 
-<br><br> --- ## 🚀 About Me
+<br><br> 
+
+<h2><img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Smilies/Woman%20Student.png?raw=true" alt="Woman Student" width="35" height="35" />&nbsp; About Me</h2>
+## 🚀 About Me
 
 - 💻 Software Engineer/Software Developer
 - 🔭 My journey in tech is fueled by a deep dive into the exciting world of **Web Development**, where I love bringing dynamic applications to life!
 - 🌱 Deepening my knowledge in **advanced web development architectures**
+- 💬 Let's talk about **Java, Spring, SpringBoot, MVC**
 - ⚡ Fun fact: My coffee consumption scales directly with the number of open curly braces in my code.
+  
 
 
 <br>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=500&size=25&pause=1500&color=B0B0B0&center=true&vCenter=true&width=900&lines=%E2%9A%A1+Fun+fact%3A+I+once+tried+to+teach+my+cat+basic+binary%2C+but+we're+still+stuck+on+the+'meow'+phase." alt="hehehe" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=500&size=25&pause=1500&color=39FF14&center=true&vCenter=true&width=1000&lines=I+once+tried+to+teach+my+cat+basic+binary%2C+but+we're+still+stuck+on+the+'meow'+phase." alt="hehehe" />
 </div>
 
 <!--
