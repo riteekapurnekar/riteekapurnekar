@@ -12,10 +12,25 @@
 
 <br>
 
+## 🚀 About Me
+
+- 💻 Software Engineer/Software Developer
+- 🔭 My journey in tech is fueled by a deep dive into the exciting world of **Web Development**, where I love bringing dynamic applications to life!
+- 🌱 Deepening my knowledge in **advanced web development architectures**
+- ⚡ Fun fact: My coffee consumption scales directly with the number of open curly braces in my code.
+
+
+<br>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=400&size=25&pause=1500&color=B0B0B0&center=true&vCenter=true&width=750&lines=%E2%9A%A1+Fun+fact%3A+I+once+tried+to+teach+my+cat+basic+binary%2C+but+we're+still+stuck+on+the+'meow'+phase." alt="Fun Fact Typing SVG" />
+</div>
+
 <!--
 **riteekapurnekar/riteekapurnekar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
+
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
