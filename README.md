@@ -89,7 +89,7 @@
 
 ### ✨ Pixelated Wisdom
 
-<div align="center">
+<div align="left">
   <p style="color:#808080; font-size:0.9em;">
     <code>// It's not a bug,</code><br>
     <code>// it's an undocumented feature.</code><br>
