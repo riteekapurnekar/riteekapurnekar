@@ -90,6 +90,9 @@
 ### 👾 Pixelated Wisdom
 
 <div align="center">
+  <p style="color:#D399FF; font-size:1.2em; font-style:italic;">
+        "It's not a bug, it's an undocumented feature." - Unknown
+      </p>
 </div>
 
 <!--
