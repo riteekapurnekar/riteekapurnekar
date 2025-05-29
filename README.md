@@ -16,7 +16,7 @@
 ### 🚀 About Me
 
 - 💻 Software Engineer/Software Developer
-- 🔭 My journey in tech is fueled by a deep dive into the exciting world of **Web Development**, where I love bringing dynamic applications to life!
+- 🔭 I love bringing **dynamic applications to life!**
 - 🌱 Deepening my knowledge in **advanced web development architectures**
 - 💬 Let's talk about **Java, Spring, SpringBoot, MVC**
 - ⚡ Fun fact: My coffee consumption scales directly with the number of open curly braces in my code.
