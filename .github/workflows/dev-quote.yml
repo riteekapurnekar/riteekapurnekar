@@ -1,0 +1,67 @@
+name: Pixelated Wisdom Update Random Dev Quote
+
+on:
+  workflow_dispatch: 
+  schedule:
+    - cron: '0 0 * * *' 
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch random quote and prepare SVG URL
+        id: fetch_quote_data
+        run: |
+          # Install jq for JSON parsing and Python for URL encoding
+          sudo apt-get update && sudo apt-get install -y jq python3 python3-pip
+          pip3 install urllib3 # Ensure urllib3 is available for python's urlquote
+
+          # Fetch quote from ZenQuotes API
+          QUOTE_DATA=$(curl -s https://zenquotes.io/api/random)
+          QUOTE_TEXT=$(echo "$QUOTE_DATA" | jq -r '.[0].q')
+          AUTHOR_TEXT=$(echo "$QUOTE_DATA" | jq -r '.[0].a')
+
+          # URL-encode the quote and author for the SVG service
+          ENCODED_QUOTE_TEXT=$(python3 -c 'import sys, urllib.parse; print(urllib.parse.quote_plus(sys.argv[1]))' "$QUOTE_TEXT")
+          ENCODED_AUTHOR_TEXT=$(python3 -c 'import sys, urllib.parse; print(urllib.parse.quote_plus(sys.argv[1]))' "$AUTHOR_TEXT")
+
+          # Construct the line for the typing SVG service
+          # Format: "Quote" -- Author, with + for spaces and URL encoding applied
+          TYPING_LINE="\"${ENCODED_QUOTE_TEXT}\"+--+${ENCODED_AUTHOR_TEXT}"
+
+          # Construct the full readme-typing-svg URL with your preferred styles
+          # Using Comic Sans MS, lilac color (D399FF), dark background, and center alignment
+          SVG_URL="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=400&size=25&pause=1500&color=D399FF&center=true&vCenter=true&width=900&lines=${TYPING_LINE}"
+
+          # Output the constructed SVG URL to be used by the next step
+          echo "TYPING_SVG_URL=$SVG_URL" >> "$GITHUB_OUTPUT"
+
+      - name: Update README.md with new quote SVG
+        run: |
+          README_FILE="README.md"
+
+          # Construct the full block to be inserted into README.md using printf for safety
+          QUOTE_BLOCK=$(printf -b '\n<div align="center">\n  <img src="%s" alt="Random Dev Quote">\n</div>\n\n' "${{ steps.fetch_quote_data.outputs.TYPING_SVG_URL }}")
+
+          # Use sed to replace the content between the markers in README.md
+          # The 'c\' command means "change lines to" and then the content.
+          # We use '#' as a delimiter for sed to avoid conflicts with '/' in URLs.
+          sed -i "##,##c\\${QUOTE_BLOCK}" "$README_FILE"
+
+      - name: Commit and Push changes
+        run: |
+          # Configure Git user for the automated commit
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add the modified README.md file
+          git add "$README_FILE"
+
+          # Commit changes; '|| echo' prevents failure if no changes were made
+          git commit -m "Automated: Update random dev quote" || echo "No changes to commit"
+
+          # Push the changes to the repository
+          git push
