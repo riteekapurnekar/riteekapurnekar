@@ -12,7 +12,7 @@
 
 <br><br> 
 
-## 🚀 About Me
+### 🚀 About Me
 
 - 💻 Software Engineer/Software Developer
 - 🔭 My journey in tech is fueled by a deep dive into the exciting world of **Web Development**, where I love bringing dynamic applications to life!
@@ -25,7 +25,7 @@
 <br>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=500&size=20&pause=1500&color=39FF14&center=true&vCenter=true&width=1000&lines=I+once+tried+to+teach+my+cat+basic+binary%2C+but+we're+still+stuck+on+the+'meow'+phase." alt="hehehe" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=500&size=20&pause=1500&color=D399FF&center=true&vCenter=true&width=1000&lines=I+once+tried+to+teach+my+cat+basic+binary%2C+but+we're+still+stuck+on+the+'meow'+phase." alt="hehehe" />
 </div>
 
 <!--
