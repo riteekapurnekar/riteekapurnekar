@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=500&color=2196F3&center=true&vCenter=true&width=400&lines=Hi+there!+👋;I'm+Riteeka+Purnekar!" alt="Typing SVG" />
+</div>
+
 <!--
 **riteekapurnekar/riteekapurnekar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
