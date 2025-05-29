@@ -87,12 +87,13 @@
 
 ---
 
-### 👾 Pixelated Wisdom
-
+### ✨ Pixelated Wisdom
 <div align="center">
-  <p style="color:#D399FF; font-size:1.2em; font-style:italic;">
-        "It's not a bug, it's an undocumented feature." - Unknown
-      </p>
+  <p style="color:#D399FF; font-size:1.1em;">
+    > It's not a bug.<br>
+    > It's an undocumented feature. 😉<br>
+    > - Unknown
+  </p>
 </div>
 
 <!--
