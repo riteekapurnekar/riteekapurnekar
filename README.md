@@ -80,7 +80,7 @@
   <h4>Certifications</h4>
   <p>
     <img src="https://img.shields.io/badge/Azure%20AZ--900-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure AZ-900">
-    <img src="https://img.shields.io/badge/Microsoft%20MTA%20Python-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft MTA Python">
+    <img src="https://img.shields.io/badge/Microsoft%20MTA%20Python-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft MTA Python Fundamentals">
   </p>
 </div>
 
