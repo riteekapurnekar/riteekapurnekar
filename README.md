@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&weight=600&size=30&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=I'm+Riteeka+Purnekar!+😄" alt="Typing..." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=I'm+Riteeka+Purnekar!+😄" alt="Typing..." />
 </div>
 
 <br><br>
@@ -90,7 +90,7 @@
 ### 💬 Random Dev Quote
 
 <div align="center">
-  <img src="https://quotes-readme-md.vercel.app/?backgroundColor=161B22&textColor=ffffff&quoteColor=D399FF&authorColor=ffffff" alt="Random Dev Quote">
+  <img src="https://quotes-go.denvercoder1.repl.co/quotes?random=true&language=en&maxLength=100&theme=dark&color=D399FF&style=bold" alt="Random Dev Quote">
 </div>
 
 <!--
