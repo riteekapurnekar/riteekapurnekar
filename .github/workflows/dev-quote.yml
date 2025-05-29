@@ -44,7 +44,7 @@ jobs:
           README_FILE="README.md"
 
           # Construct the full block to be inserted into README.md using printf for safety
-          QUOTE_BLOCK=$(printf -b '\n<div align="center">\n  <img src="%s" alt="Random Dev Quote">\n</div>\n\n' "${{ steps.fetch_quote_data.outputs.TYPING_SVG_URL }}")
+          QUOTE_BLOCK=$(printf '%b' '\n<div align="center">\n  <img src="%s" alt="Random Dev Quote">\n</div>\n\n' "${{ steps.fetch_quote_data.outputs.TYPING_SVG_URL }}")
 
           # Use sed to replace the content between the markers in README.md
           # The 'c\' command means "change lines to" and then the content.
