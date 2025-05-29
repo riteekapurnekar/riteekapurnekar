@@ -28,6 +28,21 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=500&size=20&pause=1500&color=D399FF&center=true&vCenter=true&width=1000&lines=I+once+tried+to+teach+my+cat+basic+binary%2C+but+we're+still+stuck+on+the+'meow'+phase." alt="hehehe" />
 </div>
 
+---
+
+### 🔗 Connect with Me
+
+<div align="center">
+  <p>
+    <a href="[YOUR_LINKEDIN_PROFILE_UR](https://www.linkedin.com/in/riteeka-purnekar-0039851a9/)L" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    </a>
+    <a href="mailto:riteekajainrj990@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+    </a>
+    </p>
+</div>
+
 <!--
 **riteekapurnekar/riteekapurnekar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
