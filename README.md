@@ -87,10 +87,9 @@
 
 ---
 
-### 💬 Random Dev Quote
+### 👾 Pixelated Wisdom
 
 <div align="center">
-  <img src="https://quotes-go.denvercoder1.repl.co/quotes?random=true&language=en&maxLength=100&theme=dark&color=D399FF&style=bold" alt="Random Dev Quote">
 </div>
 
 <!--
