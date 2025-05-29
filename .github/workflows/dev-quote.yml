@@ -1,9 +1,9 @@
-name: Pixelated Wisdom Update Random Dev Quote
+name: Update Random Dev Quote
 
 on:
-  workflow_dispatch: 
+  workflow_dispatch: # Allows manual triggering from the Actions tab
   schedule:
-    - cron: '0 0 * * *' 
+    - cron: '0 0 * * *' # Runs once every day at midnight UTC
 
 jobs:
   update-quote:
@@ -29,39 +29,61 @@ jobs:
           ENCODED_AUTHOR_TEXT=$(python3 -c 'import sys, urllib.parse; print(urllib.parse.quote_plus(sys.argv[1]))' "$AUTHOR_TEXT")
 
           # Construct the line for the typing SVG service
-          # Format: "Quote" -- Author, with + for spaces and URL encoding applied
           TYPING_LINE="\"${ENCODED_QUOTE_TEXT}\"+--+${ENCODED_AUTHOR_TEXT}"
 
           # Construct the full readme-typing-svg URL with your preferred styles
-          # Using Comic Sans MS, lilac color (D399FF), dark background, and center alignment
           SVG_URL="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=400&size=25&pause=1500&color=D399FF&center=true&vCenter=true&width=900&lines=${TYPING_LINE}"
 
           # Output the constructed SVG URL to be used by the next step
           echo "TYPING_SVG_URL=$SVG_URL" >> "$GITHUB_OUTPUT"
 
-      - name: Update README.md with new quote SVG
+      - name: Read current README.md content
+        id: read_readme
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const readmeContent = fs.readFileSync('README.md', 'utf8');
+            core.setOutput('readme_content', readmeContent);
+
+      - name: Generate new README.md content
+        id: generate_readme
         run: |
-          README_FILE="README.md"
+          CURRENT_README="${{ steps.read_readme.outputs.readme_content }}"
+          NEW_SVG_URL="${{ steps.fetch_quote_data.outputs.TYPING_SVG_URL }}"
 
-          # Construct the full block to be inserted into README.md using printf for safety
-          QUOTE_BLOCK=$(printf '%b' '\n<div align="center">\n  <img src="%s" alt="Random Dev Quote">\n</div>\n\n' "${{ steps.fetch_quote_data.outputs.TYPING_SVG_URL }}")
+          # Define the start and end markers
+          START_MARKER=""
+          END_MARKER=""
 
-          # Use sed to replace the content between the markers in README.md
-          # The 'c\' command means "change lines to" and then the content.
-          # We use '#' as a delimiter for sed to avoid conflicts with '/' in URLs.
-          sed -i "##,##c\\${QUOTE_BLOCK}" "$README_FILE"
+          # Define the new content to insert
+          NEW_CONTENT="${START_MARKER}\n<div align=\"center\">\n  <img src=\"${NEW_SVG_URL}\" alt=\"Random Dev Quote\">\n</div>\n${END_MARKER}"
 
-      - name: Commit and Push changes
-        run: |
-          # Configure Git user for the automated commit
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Use awk to replace the block
+          # This method is more reliable for multi-line replacements than sed in this context
+          UPDATED_README=$(echo "$CURRENT_README" | awk -v RS="" -v ORS="" -v start="$START_MARKER" -v end="$END_MARKER" -v new_block="$NEW_CONTENT" '{
+              if ($0 ~ start && $0 ~ end) {
+                  sub(start ".*" end, new_block);
+              }
+              print;
+          }')
 
-          # Add the modified README.md file
-          git add "$README_FILE"
+          # Escape single quotes and backslashes for bash output
+          # IMPORTANT: This creates a single-line string, which is then used as 'content' for the next action
+          # The actual line breaks need to be handled by the create-or-update-file action if it supports multi-line content directly
+          # Let's write to a temporary file instead of outputting as a single line
+          echo "$UPDATED_README" > updated_readme.md
 
-          # Commit changes; '|| echo' prevents failure if no changes were made
-          git commit -m "Automated: Update random dev quote" || echo "No changes to commit"
+          echo "UPDATED_README_FILE=updated_readme.md" >> "$GITHUB_OUTPUT" # Output the filename
 
-          # Push the changes to the repository
-          git push
+
+      - name: Create or update README.md file
+        uses: peter-evans/create-or-update-file@v3
+        with:
+          path: README.md
+          contents: ${{ steps.generate_readme.outputs.updated_readme_file }}
+          commit-message: "Automated: Update random dev quote"
+          committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main # Or 'master' if that's your default branch
