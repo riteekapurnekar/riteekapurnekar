@@ -6,7 +6,7 @@
 
 <br> 
 
-<div>  
+<div align="center">  
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejh6NG84N24wcHJ2MmZ1MzJsb2x0NDg2d2xsN3R3c2dvcTU4cmZsaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif" align="right" alt="👋 Me coding" width="400">
 </div>
 
