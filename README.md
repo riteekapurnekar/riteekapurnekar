@@ -12,7 +12,6 @@
 
 <br><br> 
 
-<h2><img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Smilies/Woman%20Student.png?raw=true" alt="Woman Student" width="35" height="35" />&nbsp; About Me</h2>
 ## 🚀 About Me
 
 - 💻 Software Engineer/Software Developer
@@ -26,7 +25,7 @@
 <br>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=500&size=25&pause=1500&color=39FF14&center=true&vCenter=true&width=1000&lines=I+once+tried+to+teach+my+cat+basic+binary%2C+but+we're+still+stuck+on+the+'meow'+phase." alt="hehehe" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=500&size=20&pause=1500&color=39FF14&center=true&vCenter=true&width=1000&lines=I+once+tried+to+teach+my+cat+basic+binary%2C+but+we're+still+stuck+on+the+'meow'+phase." alt="hehehe" />
 </div>
 
 <!--
