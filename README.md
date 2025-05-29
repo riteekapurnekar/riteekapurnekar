@@ -19,7 +19,7 @@
 - 🔭 I love bringing **dynamic applications to life!**
 - 🌱 Deepening my knowledge in **advanced web development architectures**
 - 💬 Let's talk about **Java, Spring, SpringBoot, MVC**
-- ⚡ Fun fact: <i>My coffee consumption scales directly with the number of open curly braces in my code.</i>
+- ⚡ Fun fact: <i><u>My coffee consumption scales directly with the number of open curly braces in my code.</u></i>
   
 
 
