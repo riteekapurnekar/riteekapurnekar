@@ -88,11 +88,12 @@
 ---
 
 ### ✨ Pixelated Wisdom
+
 <div align="center">
-  <p style="color:#D399FF; font-size:1.1em;">
-    > It's not a bug.<br>
-    > It's an undocumented feature. 😉<br>
-    > - Unknown
+  <p style="color:#808080; font-size:0.9em;">
+    <code>// It's not a bug,</code><br>
+    <code>// it's an undocumented feature.</code><br>
+    <code>// - Unknown</code>
   </p>
 </div>
 
