@@ -43,6 +43,7 @@
     </p>
 </div>
 
+---
 
 ### 🛠️ My Dev Superpowers
 
@@ -82,6 +83,14 @@
     <img src="https://img.shields.io/badge/Azure%20AZ--900-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure AZ-900">
     <img src="https://img.shields.io/badge/Microsoft%20MTA%20Python-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft MTA Python Fundamentals">
   </p>
+</div>
+
+---
+
+### 💬 Random Dev Quote
+
+<div align="center">
+  <img src="https://quotes-readme-md.vercel.app/?backgroundColor=161B22&textColor=ffffff&quoteColor=D399FF&authorColor=ffffff" alt="Random Dev Quote">
 </div>
 
 <!--
