@@ -21,8 +21,20 @@
 - 💬 Let's talk about **Java, .NET, Python, SpringBoot, Entity Framework, API's and more...**
   
 ⚡ Fun fact: <i>My coffee consumption scales directly with the number of open curly braces in my code.</i>
-  
 
+
+<br> 
+
+### 🧰 Tech Stack
+<div align="center">
+  
+🌐 **Frontend:** React • TypeScript • JavaScript • HTML • CSS  
+⚙️ **Backend:** Java • Spring Boot • .NET • C# • Python • REST APIs  
+🗄️ **Databases:** SQL Server • MySQL • PostgreSQL  
+🛠️ **Tools:** Git • GitHub • Postman • Swagger • Linux • Docker  
+☁️ **Cloud:** Azure AZ-900  
+
+</div>
 
 <br>
 
@@ -50,7 +62,7 @@
 ### 🛠️ My Dev Superpowers
 
 <div align="center">
-  <h4>Programming Languages</h4>
+  <h4>💻 Programming Languages</h4>
   <p>
     <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -64,7 +76,7 @@
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   </p>
   
-  <h4>Frameworks & Tools</h4>
+  <h4>⚙️ Frameworks & Tools</h4>
   <p>
     <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot">
     <img src="https://img.shields.io/badge/EF%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="EF Core">
@@ -77,7 +89,15 @@
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </p>
 
-  <h4>Databases & OS</h4>
+  <h4>🧪 Testing & Quality Assurance</h4>
+    <p>
+      <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=JUnit5&logoColor=white" alt="JUnit"> 
+      <img src="https://img.shields.io/badge/Mutation%20Testing-FF6F61?style=for-the-badge&logo=sonarqube&logoColor=white" alt="Mutation Testing"> 
+      <img src="https://img.shields.io/badge/Integration%20Testing-007ACC?style=for-the-badge&logo=testing-library&logoColor=white" alt="Integration Testing"> 
+      <img src="https://img.shields.io/badge/SE433-FF6600?style=for-the-badge&logoColor=white" alt="SE433"> 
+    </p>
+    
+  <h4>🗄️ Databases & OS</h4>
   <p>
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
     <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server">
@@ -87,7 +107,7 @@
     <!-- <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL"> -->
   </p>
 
-  <h4>Certifications</h4>
+  <h4>☁️ Cloud & Certifications</h4>
   <p>
     <img src="https://img.shields.io/badge/Azure%20AZ--900-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure AZ-900">
     <img src="https://img.shields.io/badge/Microsoft%20MTA%20Python-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft MTA Python Fundamentals">
