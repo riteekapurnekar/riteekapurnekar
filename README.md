@@ -111,16 +111,13 @@
 ### 🕹️ My Coding Scoreboard
 
 <div align="center">
-  <!-- <img src="https://github-readme-stats.vercel.app/api?username=riteekapurnekar&show_icons=true&theme=dark&rank_icon=github" alt="Riteeka's GitHub Stats" /> -->
-  <img src="https://github-readme-stats-git-masterorg-main-projects.vercel.app/api?username=riteekapurnekar&show_icons=true&theme=dark&rank_icon=github" alt="Riteeka's GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=riteekapurnekar&show_icons=true&theme=dark&rank_icon=github" alt="Riteeka's GitHub Stats" />
 </div>
 
 <br>
 
 <div align="center">
-  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=riteekapurnekar&layout=compact&theme=dark" alt="Riteeka's Top Languages" /> -->
-  <img src="https://github-readme-stats-git-masterorg-main-projects.vercel.app/api/top-langs/?username=riteekapurnekar&layout=compact&theme=dark" alt="Riteeka's Top Languages" />
-
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=riteekapurnekar&layout=compact&theme=dark" alt="Riteeka's Top Languages" />
 </div>
 
 <!--
