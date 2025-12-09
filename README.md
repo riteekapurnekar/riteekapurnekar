@@ -9,7 +9,7 @@
 
 <div align="center">  
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejh6NG84N24wcHJ2MmZ1MzJsb2x0NDg2d2xsN3R3c2dvcTU4cmZsaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif" align="right" alt="👋 Me coding" width="300">
-</div>
+</div> 
 
 <br><br> 
 
@@ -111,13 +111,16 @@
 ### 🕹️ My Coding Scoreboard
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=riteekapurnekar&show_icons=true&theme=dark&rank_icon=github" alt="Riteeka's GitHub Stats" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api?username=riteekapurnekar&show_icons=true&theme=dark&rank_icon=github" alt="Riteeka's GitHub Stats" /> -->
+  <img src="https://github-readme-stats-git-masterorg-main-projects.vercel.app/api?username=riteekapurnekar&show_icons=true&theme=dark&rank_icon=github" alt="Riteeka's GitHub Stats"/>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=riteekapurnekar&layout=compact&theme=dark" alt="Riteeka's Top Languages" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=riteekapurnekar&layout=compact&theme=dark" alt="Riteeka's Top Languages" /> -->
+  <img src="https://github-readme-stats-git-masterorg-main-projects.vercel.app/api/top-langs/?username=riteekapurnekar&layout=compact&theme=dark" alt="Riteeka's Top Languages" />
+
 </div>
 
 <!--
