@@ -95,7 +95,6 @@
       <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=JUnit5&logoColor=white" alt="JUnit"> 
       <img src="https://img.shields.io/badge/Mutation%20Testing-FF6F61?style=for-the-badge&logo=sonarqube&logoColor=white" alt="Mutation Testing"> 
       <img src="https://img.shields.io/badge/Integration%20Testing-007ACC?style=for-the-badge&logo=testing-library&logoColor=white" alt="Integration Testing"> 
-      <img src="https://img.shields.io/badge/SE433-FF6600?style=for-the-badge&logoColor=white" alt="SE433"> 
     </p>
     
   <h4>🗄️ Databases & OS</h4>
