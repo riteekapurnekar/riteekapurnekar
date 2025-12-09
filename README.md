@@ -26,16 +26,14 @@
 <br> 
 
 ### 🧰 Tech Stack
-<div align="left">
   
-- 🌐 **Frontend:** React | TypeScript | JavaScript | HTML | CSS  <br>
-- ⚙️ **Backend:** Java • Spring Boot • .NET • C# • Python • REST APIs  <br>
-- 🗄️ **Databases:** SQL Server • MySQL • PostgreSQL  <br>
-- 🛠️ **Tools:** Git • GitHub • Postman • Swagger • Linux • Docker  <br>
-- 🧪 **Testing / QA:** JUnit • Mutation Testing • Integration Testing • Manual, Sanity and System Verification Testing  <br>
+- 🌐 **Frontend:** React | TypeScript | JavaScript | HTML | CSS  
+- ⚙️ **Backend:** Java | Spring Boot | .NET | C# | Python | REST APIs  
+- 🗄️ **Databases:** SQL Server | MySQL | PostgreSQL  
+- 🛠️ **Tools:** Git | GitHub | Postman | Swagger | Linux | Docker  
+- 🧪 **Testing / QA:** JUnit | Mutation Testing | Integration Testing | Manual, Sanity and System Verification Testing  
 - ☁️ **Cloud / Certifications:** Azure AZ-900  
 
-</div>
 
 <br>
 
